@@ -1,0 +1,5 @@
+# Codex workflow prompt
+
+Use this to organize one mechanism-figure project after the source material is available.
+
+> Work in the current project folder. First inventory the supplied papers/DOIs/PMIDs, notes, verified relations, and sketches. Create a source-backed mechanism summary, relationship table, uncertainty list, and proposed layout. Do not generate an image or a final generation prompt yet. Present the table and stop at a human confirmation checkpoint. After the user confirms or edits the relationships, create a copy-ready image prompt and, if the built-in image-generation tool is available, generate and save one image in the project assets. Record the exact prompt and route. Inspect the result against the confirmed relation table. If a dedicated image-to-editable-PPT converter is not actually available, do not claim conversion; offer a clearly labeled native-shape redraw if suitable file-generation tools are available. Report which editability checks were actually completed: text modification, node movement, arrow selection. Finish with unresolved science/format issues and a caption that states whether the figure is conceptual or data-based.

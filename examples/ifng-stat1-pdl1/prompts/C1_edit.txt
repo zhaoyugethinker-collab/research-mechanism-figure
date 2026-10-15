@@ -1,0 +1,6 @@
+Edit target is B1, a previously generated mechanism illustration. Keep the cutaway cell, nucleus placement, palette, textures, resolution, other scientifically correct labels, all valid edges, and PD-L1 endpoint. Make these TARGETED corrections:
+(1) The cytoplasmic node "p-STAT1 (Y701)" immediately after STAT1 must be ONE phosphorylated STAT1 subunit with one P marker; the next "p-STAT1 dimer" must remain TWO joined subunits with two P markers. Preserve STAT1 → single p-STAT1 → dimer → nuclear dimer.
+(2) Remove the spurious horizontal "Transcription" arrow floating ABOVE the CD274 DNA. Instead place "Transcription" beside the existing downward arrow FROM CD274 DNA TO nuclear CD274 mRNA. Keep IRF1 → CD274 promoter as a distinct regulatory arrow.
+(3) Replace the glowing yellow JAK activation lights with small restrained P badges; do not change JAK1/IFNGR1 or JAK2/IFNGR2 association.
+(4) Ensure the lower nuclear export arrow flows FROM nuclear CD274 mRNA OUT through a visible pore TO the cytoplasmic CD274 mRNA; the existing dashed translation/trafficking route starts at that cytoplasmic RNA and terminates at membrane PD-L1. Do not add RNA-carrying vesicles or new pathway nodes.
+Do not make any other mechanism changes. Restore any invariants after your edits. The final image is a schematic canonical pathway, not molecular stoichiometry or experimental data.

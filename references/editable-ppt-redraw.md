@@ -30,3 +30,7 @@ Deliver the PPTX plus a rendered preview. Include an object inventory with count
 In PowerPoint or Impress, perform three separate actions on the final file: change a label, move a node, and select or adjust an arrow. Save, close, reopen, and check that the edits persist. Record which actions passed. If desktop interaction cannot be performed, mark the result `PARTIAL — object structure checked, GUI editability pending`.
 
 When no suitable PPT authoring tool is available, provide the relationship table, object inventory, and redraw instructions. State plainly that no editable PPTX was produced.
+
+## v0.2 practical details
+
+Preserve the reference canvas aspect ratio. Use native gradients and editable freeforms for depth; simplify textures when necessary and disclose the difference. Give complex structures and whole arrows meaningful native group names, with text as independent text boxes. Native freeform arrows may need endpoint adjustment after a node moves. The read-only inspector can be run with `python scripts/inspect_native_pptx.py figure.pptx --require-zero-images`; zero images is a structural check, not proof of GUI behavior. Capture requested editor screenshots from the actual editor. Record user-supplied screenshot provenance; simulated selection handles in cover artwork are not editing evidence.

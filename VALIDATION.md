@@ -1,3 +1,24 @@
+# v0.2 validation record
+
+Date: 2026-10-15. Scope: public skill package and one subcellular case. Overall scientific/runtime status remains PARTIAL; checks below do not establish general reliability.
+
+| Check | Result | Scope |
+|---|---|---|
+| Package syntax/frontmatter and resource links | PASS | Local quick validator and referenced-file check |
+| Public text privacy review | PASS | No private machine paths, credentials, authentication caches or private reports included |
+| A/B/C actual inputs | Included | Exact prompts, original sketch/style guides and frozen review rubric; three calls each, C paired with B |
+| Iterative correction | Mixed | C1/C2 improved, C3 regressed; no population-level stability claim |
+| Native C1 redraw | Checked | 775 native leaf shapes, 19 groups, 30 textboxes, 264 custom freeforms, zero picture/media objects |
+| PowerPoint edit/save/reopen | PASS for this case | On a copy: STAT1 label changed, IRF1 moved, nuclear structure moved, phosphorylation arrow adjusted; saved, closed and reopened; XML changes checked |
+| Editor screenshot | User supplied | Actual multi-object selection screenshot archived locally; selection alone is not proof of save persistence |
+| PPT inspector behavior | PASS | Actual native C1 accepted with zero-image requirement; raster-only fixture rejected |
+| Skill automatic discovery / cross-host reproduction | NOT_VERIFIED | This session followed the package workflow explicitly |
+| Independent domain review | NOT_PERFORMED | Educational simplified mechanism; case assessed by the same Codex session |
+
+The public package contains original prompts and input references, not the final C1 image, PPT binary or user editor screenshot. Host-specific authoring scripts and raw local receipts are not distributed. No dedicated image-to-editable-ppt converter or complete PaperBanana multi-agent pipeline was run.
+
+## Historical v0.1 record (unchanged)
+
 # Skill validation report
 
 **Status: PARTIAL**  

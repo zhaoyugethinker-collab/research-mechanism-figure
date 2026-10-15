@@ -1,0 +1,13 @@
+Use case: scientific-educational. Create an original, premium biomedical mechanism illustration for a Chinese science communication article. Landscape 3:2, target 1536x1024, white background, generous clean margins, English molecular labels in crisp dark navy sans-serif. A single mammalian tumor cell is shown as a spacious three-quarter cutaway with visible plasma membrane, cytoplasm and nucleus with a nuclear envelope/pore. Use elegant softly shaded 2.5D cellular illustration, teal membrane/cytoplasm, violet nucleus, orange signal accents; editorial scientific figure clarity, no photorealism or decorative glowing effects. Background organelles may suggest ER/Golgi at low contrast but must not distract or be part of an invented pathway.
+
+FROZEN SCIENTIFIC CONTENT:
+1. Extracellular IFN-γ binds a schematic IFNGR1/IFNGR2 receptor complex in the plasma membrane. Receptor stoichiometry is deliberately schematic.
+2. JAK1 is associated with the cytoplasmic side of IFNGR1 and JAK2 with IFNGR2, never the reverse. Ligand engagement activates the associated JAK kinases.
+3. Cytoplasmic STAT1 becomes phosphorylated at Y701; show a STAT1 → p-STAT1 (Y701) arrow and two connected p-STAT1 subunits labelled "p-STAT1 dimer".
+4. The p-STAT1 homodimer enters the nucleus through a nuclear pore; arrow must point INTO the nucleus.
+5. Nuclear p-STAT1 induces IRF1 expression; depict an arrow to an IRF1 protein node labelled "IRF1 induction". Intermediate IRF1 transcription/translation is intentionally omitted, not protein conversion.
+6. Nuclear IRF1 promotes transcription of the gene CD274 (PD-L1); draw a local DNA/promoter segment labelled "CD274" with an arrow labelled "Transcription" to "CD274 mRNA".
+7. CD274 mRNA exits the nucleus into cytoplasm. A separate dashed arrow labelled "Translation + trafficking" leads from the exported mRNA toward PD-L1 protein inserted in a DIFFERENT location of the SAME cell's plasma membrane; PD-L1 ectodomain points extracellularly. This dashed arrow summarizes translation and ER/Golgi secretory transport; never show nuclear PD-L1 or protein directly made from DNA.
+8. Label the final output "Surface PD-L1 ↑". End the mechanism here: do not add a second cell, PD-1, immune suppression, antibodies, inhibitors, clinical outcomes, STAT2, STAT3, IRF9, AKT, ERK or mTOR.
+All activating/regulatory/translocation arrows solid and unidirectional, indirect multistep transport dashed. Add tiny legend "Solid: signaling / regulation" and "Dashed: multistep synthesis / transport". Add footer "Simplified canonical pathway; not to scale". Title "IFN-γ induces PD-L1 expression".
+No watermark, no publisher logo; do not copy any existing paper figure.

@@ -1,6 +1,6 @@
 ---
 name: research-mechanism-figure
-description: Plan and draw evidence-bounded scientific mechanism figures, or redraw a mechanism image as separately editable PowerPoint objects when suitable tools are available. Use for biomedical or scientific mechanisms, including mechanism-image-to-editable-PPT requests; not for generic photo conversion or data plots.
+description: Plan evidence-bounded scientific mechanism figures, including subcellular cutaway diagrams with compartment-aware arrows and targeted revisions, or redraw an authorized mechanism image as native editable PowerPoint objects. Use for biomedical mechanisms and mechanism-image-to-editable-PPT requests; not generic photo conversion or data plots.
 ---
 
 # 山竹科研机制图 Skill
@@ -46,4 +46,12 @@ As appropriate to the request, provide the source/evidence list, extracted mecha
 - Never claim image-to-editable-ppt was used unless that specific tool was actually invoked. Credit third-party tools and respect their license and usage limits.
 - Never claim a route, plugin, or platform was tested based on documentation alone.
 
-For the PD-1/PD-L1 example, see `examples/pd1-pdl1/README.md`. Read only the prompt/reference file needed for the current step.
+## Subcellular figures and native PPT (v0.2)
+
+For membrane–cytoplasm–nucleus figures, read [subcellular workflow](references/subcellular-workflow.md). Build a compartment/relationship table, an original structural guide and a separate style guide before controlled generation. Keep the written, confirmed science above an imperfect sketch. Use [structured input template](prompts/subcellular-input-template.md) and [targeted edit template](prompts/targeted-edit.md). A revision can introduce errors: review the complete mechanism again and retain the parent image for rollback.
+
+When the user requests object-level PPT editing, follow [native PPT redraw](references/editable-ppt-redraw.md) and [PPT redraw prompt](prompts/native-ppt-redraw.md). Keep text, cell structures and arrows as native objects, preserve the reference aspect ratio, use native gradients for depth, and group complex structures with meaningful names. Editable arrow freeforms do not necessarily follow a moved node automatically. Save real editor screenshots when requested; never synthesize selection handles as proof. The read-only [PPTX inspector](scripts/inspect_native_pptx.py) checks structure only; GUI edit/save/reopen tests are separate.
+
+Normal figure requests do not require a three-route benchmark. Run comparisons or multiple variants only when requested or when they resolve a specific design choice. One narrow edit plus review is a reasonable first iteration, not a guarantee of correctness.
+
+Examples: [PD-1/PD-L1](examples/pd1-pdl1/README.md) and [IFN-γ/STAT1/IRF1→PD-L1](examples/ifng-stat1-pdl1/README.md). The latter includes exact A/B/C prompts and documents a failed revision. Read only the reference needed for the current step. Article-cover prompts are optional visual assets in `prompts/covers/`, not scientific evidence or editor screenshots.
